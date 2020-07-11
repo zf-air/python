@@ -12,7 +12,7 @@ from matplotlib import font_manager
 # matplotlib.rc("font",family='MicroSoft YaHei',weight="bold")
 
 #另外一种设置字体的方式
-my_font = font_manager.FontProperties(fname="/System/Library/Fonts/PingFang.ttc")
+my_font = font_manager.FontProperties(fname="C:/Windows/Fonts/simhei.ttf")
 
 x = range(0,120)
 y = [random.randint(20,35) for i in range(120)]
